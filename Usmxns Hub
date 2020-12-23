@@ -1,4 +1,3 @@
-print("made by loruph#4179)
 --made by loruph#4179
 
 local usmxn = Instance.new("ScreenGui")
@@ -1781,3 +1780,5 @@ local function SEKOM_fake_script() -- background.Script
 	script.Parent.Draggable = true
 end
 coroutine.wrap(SEKOM_fake_script)()
+
+print("Hub by loruph")
