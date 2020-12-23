@@ -1,0 +1,1783 @@
+print("made by loruph#4179)
+--made by loruph#4179
+
+local usmxn = Instance.new("ScreenGui")
+local background = Instance.new("Frame")
+local rainbowbar = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local topbar = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local frameholder = Instance.new("Frame")
+local home_frame = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local home_btn = Instance.new("TextButton")
+local home = Instance.new("Frame")
+local page_title = Instance.new("TextLabel")
+local credits_box = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UIListLayout_2 = Instance.new("UIListLayout")
+local script_frame = Instance.new("Frame")
+local UIListLayout_3 = Instance.new("UIListLayout")
+local script_btn = Instance.new("TextButton")
+local script = Instance.new("Frame")
+local page_title_2 = Instance.new("TextLabel")
+local script_box = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIListLayout_4 = Instance.new("UIListLayout")
+local section_holder = Instance.new("Frame")
+local UIListLayout_5 = Instance.new("UIListLayout")
+local btn_holder = Instance.new("Frame")
+local button = Instance.new("TextButton")
+local UIListLayout_6 = Instance.new("UIListLayout")
+local btn_holder_2 = Instance.new("Frame")
+local button_2 = Instance.new("TextButton")
+local UIListLayout_7 = Instance.new("UIListLayout")
+local btn_holder_3 = Instance.new("Frame")
+local button_3 = Instance.new("TextButton")
+local UIListLayout_8 = Instance.new("UIListLayout")
+local btn_holder_4 = Instance.new("Frame")
+local button_4 = Instance.new("TextButton")
+local UIListLayout_9 = Instance.new("UIListLayout")
+local btn_holder_5 = Instance.new("Frame")
+local button_5 = Instance.new("TextButton")
+local UIListLayout_10 = Instance.new("UIListLayout")
+local btn_holder_6 = Instance.new("Frame")
+local button_6 = Instance.new("TextButton")
+local UIListLayout_11 = Instance.new("UIListLayout")
+local script_box_2 = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIListLayout_12 = Instance.new("UIListLayout")
+local section_holder_2 = Instance.new("Frame")
+local UIListLayout_13 = Instance.new("UIListLayout")
+local btn_holder_7 = Instance.new("Frame")
+local button_7 = Instance.new("TextButton")
+local UIListLayout_14 = Instance.new("UIListLayout")
+local btn_holder_8 = Instance.new("Frame")
+local button_8 = Instance.new("TextButton")
+local UIListLayout_15 = Instance.new("UIListLayout")
+local btn_holder_9 = Instance.new("Frame")
+local button_9 = Instance.new("TextButton")
+local UIListLayout_16 = Instance.new("UIListLayout")
+local btn_holder_10 = Instance.new("Frame")
+local button_10 = Instance.new("TextButton")
+local UIListLayout_17 = Instance.new("UIListLayout")
+local btn_holder_11 = Instance.new("Frame")
+local button_11 = Instance.new("TextButton")
+local UIListLayout_18 = Instance.new("UIListLayout")
+local btn_holder_12 = Instance.new("Frame")
+local button_12 = Instance.new("TextButton")
+local UIListLayout_19 = Instance.new("UIListLayout")
+local btn_holder_13 = Instance.new("Frame")
+local button_13 = Instance.new("TextButton")
+local UIListLayout_20 = Instance.new("UIListLayout")
+local script_box_3 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIListLayout_21 = Instance.new("UIListLayout")
+local section_holder_3 = Instance.new("Frame")
+local UIListLayout_22 = Instance.new("UIListLayout")
+local box_holder = Instance.new("Frame")
+local UIListLayout_23 = Instance.new("UIListLayout")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local box_holder_2 = Instance.new("Frame")
+local UIListLayout_24 = Instance.new("UIListLayout")
+local TextLabel_6 = Instance.new("TextLabel")
+local TextBox_2 = Instance.new("TextBox")
+local btn_holder_14 = Instance.new("Frame")
+local button_14 = Instance.new("TextButton")
+local UIListLayout_25 = Instance.new("UIListLayout")
+local btn_holder_15 = Instance.new("Frame")
+local button_15 = Instance.new("TextButton")
+local UIListLayout_26 = Instance.new("UIListLayout")
+local btn_holder_16 = Instance.new("Frame")
+local button_16 = Instance.new("TextButton")
+local UIListLayout_27 = Instance.new("UIListLayout")
+local credit_frame = Instance.new("Frame")
+local UIListLayout_28 = Instance.new("UIListLayout")
+local credit_btn = Instance.new("TextButton")
+local credit = Instance.new("Frame")
+local page_title_3 = Instance.new("TextLabel")
+local credits_box_2 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local destroy = Instance.new("TextButton")
+local not_frame = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+
+--Properties:
+
+usmxn.Name = "usmxn"
+usmxn.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+usmxn.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+background.Name = "background"
+background.Parent = usmxn
+background.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+background.BorderColor3 = Color3.fromRGB(170, 0, 0)
+background.BorderSizePixel = 0
+background.Position = UDim2.new(0.188284516, 0, 0.384708732, 0)
+background.Size = UDim2.new(0, 475, 0, 264)
+
+rainbowbar.Name = "rainbowbar"
+rainbowbar.Parent = background
+rainbowbar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rainbowbar.BorderSizePixel = 0
+rainbowbar.Position = UDim2.new(0, 0, 0.0946969688, 0)
+rainbowbar.Size = UDim2.new(0, 475, 0, 1)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(0.21, Color3.fromRGB(255, 0, 255)), ColorSequenceKeypoint.new(0.38, Color3.fromRGB(255, 170, 127)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(85, 255, 127)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(85, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 0))}
+UIGradient.Parent = rainbowbar
+
+topbar.Name = "topbar"
+topbar.Parent = background
+topbar.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+topbar.BorderSizePixel = 0
+topbar.Size = UDim2.new(0, 475, 0, 25)
+
+title.Name = "title"
+title.Parent = topbar
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Position = UDim2.new(0.033684209, 0, 0, 0)
+title.Size = UDim2.new(0, 121, 0, 25)
+title.Font = Enum.Font.Gotham
+title.Text = "Usmxn's Hub"
+title.TextColor3 = Color3.fromRGB(235, 235, 235)
+title.TextSize = 18.000
+title.TextXAlignment = Enum.TextXAlignment.Left
+
+frameholder.Name = "frameholder"
+frameholder.Parent = topbar
+frameholder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frameholder.BackgroundTransparency = 1.000
+frameholder.BorderSizePixel = 0
+frameholder.Position = UDim2.new(0.351578951, 0, 0, 0)
+frameholder.Size = UDim2.new(0, 273, 0, 25)
+
+home_frame.Name = "home_frame"
+home_frame.Parent = frameholder
+home_frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+home_frame.BackgroundTransparency = 1.000
+home_frame.Size = UDim2.new(0, 88, 0, 25)
+
+UIListLayout.Parent = home_frame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+
+home_btn.Name = "home_btn"
+home_btn.Parent = home_frame
+home_btn.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+home_btn.BorderSizePixel = 0
+home_btn.Position = UDim2.new(0.0568181835, 0, 0.239999995, 0)
+home_btn.Size = UDim2.new(0, 78, 0, 19)
+home_btn.AutoButtonColor = false
+home_btn.Font = Enum.Font.Gotham
+home_btn.Text = "Home"
+home_btn.TextColor3 = Color3.fromRGB(220, 220, 220)
+home_btn.TextSize = 14.000
+
+home.Name = "home"
+home.Parent = home_btn
+home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+home.BackgroundTransparency = 1.000
+home.Position = UDim2.new(-2.26923084, 0, 1.31578946, 0)
+home.Size = UDim2.new(0, 475, 0, 236)
+
+page_title.Name = "page_title"
+page_title.Parent = home
+page_title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+page_title.BackgroundTransparency = 1.000
+page_title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+page_title.Position = UDim2.new(0.416842103, 0, 0.0508474559, 0)
+page_title.Size = UDim2.new(0, 80, 0, 29)
+page_title.Font = Enum.Font.Gotham
+page_title.Text = "Home"
+page_title.TextColor3 = Color3.fromRGB(230, 230, 230)
+page_title.TextSize = 25.000
+
+credits_box.Name = "credits_box"
+credits_box.Parent = home
+credits_box.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+credits_box.BorderColor3 = Color3.fromRGB(75, 75, 75)
+credits_box.Position = UDim2.new(0.0315789469, 0, 0.228813559, 0)
+credits_box.Size = UDim2.new(0, 444, 0, 169)
+
+TextLabel.Parent = credits_box
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0112612601, 0, 0.0177514795, 0)
+TextLabel.Size = UDim2.new(0, 435, 0, 163)
+TextLabel.Font = Enum.Font.Gotham
+TextLabel.Text = "UI Design: loruph#4179"
+TextLabel.TextColor3 = Color3.fromRGB(210, 210, 210)
+TextLabel.TextSize = 17.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel.TextYAlignment = Enum.TextYAlignment.Top
+
+UIListLayout_2.Parent = frameholder
+UIListLayout_2.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_2.VerticalAlignment = Enum.VerticalAlignment.Center
+
+script_frame.Name = "script_frame"
+script_frame.Parent = frameholder
+script_frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script_frame.BackgroundTransparency = 1.000
+script_frame.Size = UDim2.new(0, 88, 0, 25)
+
+UIListLayout_3.Parent = script_frame
+UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_3.VerticalAlignment = Enum.VerticalAlignment.Center
+
+script_btn.Name = "script_btn"
+script_btn.Parent = script_frame
+script_btn.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+script_btn.BorderSizePixel = 0
+script_btn.Position = UDim2.new(0.0568181835, 0, 0.239999995, 0)
+script_btn.Size = UDim2.new(0, 78, 0, 19)
+script_btn.AutoButtonColor = false
+script_btn.Font = Enum.Font.Gotham
+script_btn.Text = "Scripts"
+script_btn.TextColor3 = Color3.fromRGB(220, 220, 220)
+script_btn.TextSize = 14.000
+
+script.Name = "script"
+script.Parent = script_btn
+script.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script.BackgroundTransparency = 1.000
+script.Position = UDim2.new(-3.39743614, 0, 1.31578946, 0)
+script.Size = UDim2.new(0, 475, 0, 236)
+script.Visible = false
+
+page_title_2.Name = "page_title"
+page_title_2.Parent = script
+page_title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+page_title_2.BackgroundTransparency = 1.000
+page_title_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+page_title_2.Position = UDim2.new(0.416842103, 0, 0.0508474559, 0)
+page_title_2.Size = UDim2.new(0, 80, 0, 29)
+page_title_2.Font = Enum.Font.Gotham
+page_title_2.Text = "Scripts"
+page_title_2.TextColor3 = Color3.fromRGB(230, 230, 230)
+page_title_2.TextSize = 25.000
+
+script_box.Name = "script_box"
+script_box.Parent = script
+script_box.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+script_box.BorderColor3 = Color3.fromRGB(75, 75, 75)
+script_box.Position = UDim2.new(0.0294736847, 0, 0.220338985, 0)
+script_box.Size = UDim2.new(0, 140, 0, 177)
+
+Frame.Parent = script_box
+Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0642857179, 0, -0.0650887564, 0)
+Frame.Size = UDim2.new(0, 46, 0, 12)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0869565234, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 42, 0, 12)
+TextLabel_2.Font = Enum.Font.Gotham
+TextLabel_2.Text = "Game"
+TextLabel_2.TextColor3 = Color3.fromRGB(210, 210, 210)
+TextLabel_2.TextSize = 14.000
+
+UIListLayout_4.Parent = Frame
+UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_4.VerticalAlignment = Enum.VerticalAlignment.Center
+
+section_holder.Name = "section_holder"
+section_holder.Parent = script_box
+section_holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+section_holder.BackgroundTransparency = 1.000
+section_holder.Size = UDim2.new(0, 140, 0, 177)
+
+UIListLayout_5.Parent = section_holder
+UIListLayout_5.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+
+btn_holder.Name = "btn_holder"
+btn_holder.Parent = section_holder
+btn_holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder.BackgroundTransparency = 1.000
+btn_holder.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder.Size = UDim2.new(0, 143, 0, 22)
+
+button.Name = "button"
+button.Parent = btn_holder
+button.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button.BorderSizePixel = 0
+button.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button.Size = UDim2.new(0, 132, 0, 16)
+button.AutoButtonColor = false
+button.Font = Enum.Font.Gotham
+button.Text = "Murder Mystery 2"
+button.TextColor3 = Color3.fromRGB(200, 200, 200)
+button.TextSize = 14.000
+button.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_6.Parent = btn_holder
+UIListLayout_6.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_6.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_6.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_2.Name = "btn_holder"
+btn_holder_2.Parent = section_holder
+btn_holder_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_2.BackgroundTransparency = 1.000
+btn_holder_2.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_2.Size = UDim2.new(0, 143, 0, 22)
+
+button_2.Name = "button"
+button_2.Parent = btn_holder_2
+button_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_2.BorderSizePixel = 0
+button_2.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_2.Size = UDim2.new(0, 132, 0, 16)
+button_2.AutoButtonColor = false
+button_2.Font = Enum.Font.Gotham
+button_2.Text = "Jailbreak [Vyn]"
+button_2.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_2.TextSize = 14.000
+button_2.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_7.Parent = btn_holder_2
+UIListLayout_7.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_7.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_7.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_3.Name = "btn_holder"
+btn_holder_3.Parent = section_holder
+btn_holder_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_3.BackgroundTransparency = 1.000
+btn_holder_3.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_3.Size = UDim2.new(0, 143, 0, 22)
+
+button_3.Name = "button"
+button_3.Parent = btn_holder_3
+button_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_3.BorderSizePixel = 0
+button_3.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_3.Size = UDim2.new(0, 132, 0, 16)
+button_3.AutoButtonColor = false
+button_3.Font = Enum.Font.Gotham
+button_3.Text = "Prison Life [Vyn]"
+button_3.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_3.TextSize = 14.000
+button_3.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_8.Parent = btn_holder_3
+UIListLayout_8.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_8.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_8.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_4.Name = "btn_holder"
+btn_holder_4.Parent = section_holder
+btn_holder_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_4.BackgroundTransparency = 1.000
+btn_holder_4.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_4.Size = UDim2.new(0, 143, 0, 22)
+
+button_4.Name = "button"
+button_4.Parent = btn_holder_4
+button_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_4.BorderSizePixel = 0
+button_4.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_4.Size = UDim2.new(0, 132, 0, 16)
+button_4.AutoButtonColor = false
+button_4.Font = Enum.Font.Gotham
+button_4.Text = "MM2 [Eclipse]"
+button_4.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_4.TextSize = 14.000
+button_4.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_9.Parent = btn_holder_4
+UIListLayout_9.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_9.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_9.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_5.Name = "btn_holder"
+btn_holder_5.Parent = section_holder
+btn_holder_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_5.BackgroundTransparency = 1.000
+btn_holder_5.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_5.Size = UDim2.new(0, 143, 0, 22)
+
+button_5.Name = "button"
+button_5.Parent = btn_holder_5
+button_5.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_5.BorderSizePixel = 0
+button_5.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_5.Size = UDim2.new(0, 132, 0, 16)
+button_5.AutoButtonColor = false
+button_5.Font = Enum.Font.Gotham
+button_5.Text = "Ragdoll [Vyn]"
+button_5.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_5.TextSize = 14.000
+button_5.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_10.Parent = btn_holder_5
+UIListLayout_10.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_10.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_10.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_6.Name = "btn_holder"
+btn_holder_6.Parent = section_holder
+btn_holder_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_6.BackgroundTransparency = 1.000
+btn_holder_6.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_6.Size = UDim2.new(0, 143, 0, 22)
+
+button_6.Name = "button"
+button_6.Parent = btn_holder_6
+button_6.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_6.BorderSizePixel = 0
+button_6.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_6.Size = UDim2.new(0, 132, 0, 16)
+button_6.AutoButtonColor = false
+button_6.Font = Enum.Font.Gotham
+button_6.Text = "Prison X"
+button_6.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_6.TextSize = 14.000
+button_6.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_11.Parent = btn_holder_6
+UIListLayout_11.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_11.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_11.VerticalAlignment = Enum.VerticalAlignment.Center
+
+script_box_2.Name = "script_box"
+script_box_2.Parent = script
+script_box_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+script_box_2.BorderColor3 = Color3.fromRGB(75, 75, 75)
+script_box_2.Position = UDim2.new(0.351578951, 0, 0.220338985, 0)
+script_box_2.Size = UDim2.new(0, 140, 0, 177)
+
+Frame_2.Parent = script_box_2
+Frame_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0642857179, 0, -0.0650887564, 0)
+Frame_2.Size = UDim2.new(0, 32, 0, 12)
+
+TextLabel_3.Parent = Frame_2
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0869565234, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 42, 0, 12)
+TextLabel_3.Font = Enum.Font.Gotham
+TextLabel_3.Text = "Fun"
+TextLabel_3.TextColor3 = Color3.fromRGB(210, 210, 210)
+TextLabel_3.TextSize = 14.000
+
+UIListLayout_12.Parent = Frame_2
+UIListLayout_12.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_12.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_12.VerticalAlignment = Enum.VerticalAlignment.Center
+
+section_holder_2.Name = "section_holder"
+section_holder_2.Parent = script_box_2
+section_holder_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+section_holder_2.BackgroundTransparency = 1.000
+section_holder_2.Size = UDim2.new(0, 140, 0, 177)
+
+UIListLayout_13.Parent = section_holder_2
+UIListLayout_13.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_13.SortOrder = Enum.SortOrder.LayoutOrder
+
+btn_holder_7.Name = "btn_holder"
+btn_holder_7.Parent = section_holder_2
+btn_holder_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_7.BackgroundTransparency = 1.000
+btn_holder_7.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_7.Size = UDim2.new(0, 143, 0, 22)
+
+button_7.Name = "button"
+button_7.Parent = btn_holder_7
+button_7.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_7.BorderSizePixel = 0
+button_7.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_7.Size = UDim2.new(0, 132, 0, 16)
+button_7.AutoButtonColor = false
+button_7.Font = Enum.Font.Gotham
+button_7.Text = "Neptunian Fling"
+button_7.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_7.TextSize = 14.000
+button_7.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_14.Parent = btn_holder_7
+UIListLayout_14.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_14.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_14.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_8.Name = "btn_holder"
+btn_holder_8.Parent = section_holder_2
+btn_holder_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_8.BackgroundTransparency = 1.000
+btn_holder_8.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_8.Size = UDim2.new(0, 143, 0, 22)
+
+button_8.Name = "button"
+button_8.Parent = btn_holder_8
+button_8.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_8.BorderSizePixel = 0
+button_8.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_8.Size = UDim2.new(0, 132, 0, 16)
+button_8.AutoButtonColor = false
+button_8.Font = Enum.Font.Gotham
+button_8.Text = "Fire God"
+button_8.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_8.TextSize = 14.000
+button_8.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_15.Parent = btn_holder_8
+UIListLayout_15.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_15.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_15.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_9.Name = "btn_holder"
+btn_holder_9.Parent = section_holder_2
+btn_holder_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_9.BackgroundTransparency = 1.000
+btn_holder_9.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_9.Size = UDim2.new(0, 143, 0, 22)
+
+button_9.Name = "button"
+button_9.Parent = btn_holder_9
+button_9.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_9.BorderSizePixel = 0
+button_9.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_9.Size = UDim2.new(0, 132, 0, 16)
+button_9.AutoButtonColor = false
+button_9.Font = Enum.Font.Gotham
+button_9.Text = "Hat Orbit"
+button_9.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_9.TextSize = 14.000
+button_9.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_16.Parent = btn_holder_9
+UIListLayout_16.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_16.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_16.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_10.Name = "btn_holder"
+btn_holder_10.Parent = section_holder_2
+btn_holder_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_10.BackgroundTransparency = 1.000
+btn_holder_10.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_10.Size = UDim2.new(0, 143, 0, 22)
+
+button_10.Name = "button"
+button_10.Parent = btn_holder_10
+button_10.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_10.BorderSizePixel = 0
+button_10.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_10.Size = UDim2.new(0, 132, 0, 16)
+button_10.AutoButtonColor = false
+button_10.Font = Enum.Font.Gotham
+button_10.Text = "Car"
+button_10.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_10.TextSize = 14.000
+button_10.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_17.Parent = btn_holder_10
+UIListLayout_17.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_17.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_17.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_11.Name = "btn_holder"
+btn_holder_11.Parent = section_holder_2
+btn_holder_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_11.BackgroundTransparency = 1.000
+btn_holder_11.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_11.Size = UDim2.new(0, 143, 0, 22)
+
+button_11.Name = "button"
+button_11.Parent = btn_holder_11
+button_11.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_11.BorderSizePixel = 0
+button_11.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_11.Size = UDim2.new(0, 132, 0, 16)
+button_11.AutoButtonColor = false
+button_11.Font = Enum.Font.Gotham
+button_11.Text = "Chat Hax"
+button_11.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_11.TextSize = 14.000
+button_11.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_18.Parent = btn_holder_11
+UIListLayout_18.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_18.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_18.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_12.Name = "btn_holder"
+btn_holder_12.Parent = section_holder_2
+btn_holder_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_12.BackgroundTransparency = 1.000
+btn_holder_12.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_12.Size = UDim2.new(0, 143, 0, 22)
+
+button_12.Name = "button"
+button_12.Parent = btn_holder_12
+button_12.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_12.BorderSizePixel = 0
+button_12.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_12.Size = UDim2.new(0, 132, 0, 16)
+button_12.AutoButtonColor = false
+button_12.Font = Enum.Font.Gotham
+button_12.Text = "Build"
+button_12.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_12.TextSize = 14.000
+button_12.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_19.Parent = btn_holder_12
+UIListLayout_19.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_19.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_19.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_13.Name = "btn_holder"
+btn_holder_13.Parent = section_holder_2
+btn_holder_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_13.BackgroundTransparency = 1.000
+btn_holder_13.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_13.Size = UDim2.new(0, 143, 0, 22)
+
+button_13.Name = "button"
+button_13.Parent = btn_holder_13
+button_13.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_13.BorderSizePixel = 0
+button_13.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_13.Size = UDim2.new(0, 132, 0, 16)
+button_13.AutoButtonColor = false
+button_13.Font = Enum.Font.Gotham
+button_13.Text = "FE Bypass"
+button_13.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_13.TextSize = 14.000
+button_13.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_20.Parent = btn_holder_13
+UIListLayout_20.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_20.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_20.VerticalAlignment = Enum.VerticalAlignment.Center
+
+script_box_3.Name = "script_box"
+script_box_3.Parent = script
+script_box_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+script_box_3.BorderColor3 = Color3.fromRGB(75, 75, 75)
+script_box_3.Position = UDim2.new(0.675789535, 0, 0.220338985, 0)
+script_box_3.Size = UDim2.new(0, 140, 0, 177)
+
+Frame_3.Parent = script_box_3
+Frame_3.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.0642857179, 0, -0.0650887564, 0)
+Frame_3.Size = UDim2.new(0, 64, 0, 12)
+
+TextLabel_4.Parent = Frame_3
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0869565234, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0, 42, 0, 12)
+TextLabel_4.Font = Enum.Font.Gotham
+TextLabel_4.Text = "Universal"
+TextLabel_4.TextColor3 = Color3.fromRGB(210, 210, 210)
+TextLabel_4.TextSize = 14.000
+
+UIListLayout_21.Parent = Frame_3
+UIListLayout_21.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_21.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_21.VerticalAlignment = Enum.VerticalAlignment.Center
+
+section_holder_3.Name = "section_holder"
+section_holder_3.Parent = script_box_3
+section_holder_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+section_holder_3.BackgroundTransparency = 1.000
+section_holder_3.Size = UDim2.new(0, 140, 0, 177)
+
+UIListLayout_22.Parent = section_holder_3
+UIListLayout_22.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_22.SortOrder = Enum.SortOrder.LayoutOrder
+
+box_holder.Name = "box_holder"
+box_holder.Parent = section_holder_3
+box_holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+box_holder.BackgroundTransparency = 1.000
+box_holder.Position = UDim2.new(0.0642857179, 0, 0, 0)
+box_holder.Size = UDim2.new(0, 132, 0, 22)
+
+UIListLayout_23.Parent = box_holder
+UIListLayout_23.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_23.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_23.VerticalAlignment = Enum.VerticalAlignment.Center
+
+TextLabel_5.Parent = box_holder
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0, 0, 0.13636364, 0)
+TextLabel_5.Size = UDim2.new(0, 92, 0, 16)
+TextLabel_5.Font = Enum.Font.Gotham
+TextLabel_5.Text = "Walk Speed"
+TextLabel_5.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox.Parent = box_holder
+TextBox.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.643939376, 0, 0.13636364, 0)
+TextBox.Size = UDim2.new(0, 37, 0, 16)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "16"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextBox.TextSize = 14.000
+
+box_holder_2.Name = "box_holder"
+box_holder_2.Parent = section_holder_3
+box_holder_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+box_holder_2.BackgroundTransparency = 1.000
+box_holder_2.Position = UDim2.new(0.0642857179, 0, 0, 0)
+box_holder_2.Size = UDim2.new(0, 132, 0, 22)
+
+UIListLayout_24.Parent = box_holder_2
+UIListLayout_24.FillDirection = Enum.FillDirection.Horizontal
+UIListLayout_24.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_24.VerticalAlignment = Enum.VerticalAlignment.Center
+
+TextLabel_6.Parent = box_holder_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0, 0, 0.13636364, 0)
+TextLabel_6.Size = UDim2.new(0, 92, 0, 16)
+TextLabel_6.Font = Enum.Font.Gotham
+TextLabel_6.Text = "Jump Power"
+TextLabel_6.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+TextBox_2.Parent = box_holder_2
+TextBox_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0.643939376, 0, 0.13636364, 0)
+TextBox_2.Size = UDim2.new(0, 37, 0, 16)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.PlaceholderText = "50"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextBox_2.TextSize = 14.000
+
+btn_holder_14.Name = "btn_holder"
+btn_holder_14.Parent = section_holder_3
+btn_holder_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_14.BackgroundTransparency = 1.000
+btn_holder_14.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_14.Size = UDim2.new(0, 143, 0, 22)
+
+button_14.Name = "button"
+button_14.Parent = btn_holder_14
+button_14.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_14.BorderSizePixel = 0
+button_14.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_14.Size = UDim2.new(0, 132, 0, 16)
+button_14.AutoButtonColor = false
+button_14.Font = Enum.Font.Gotham
+button_14.Text = "Chat Bypass"
+button_14.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_14.TextSize = 14.000
+button_14.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_25.Parent = btn_holder_14
+UIListLayout_25.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_25.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_25.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_15.Name = "btn_holder"
+btn_holder_15.Parent = section_holder_3
+btn_holder_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_15.BackgroundTransparency = 1.000
+btn_holder_15.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_15.Size = UDim2.new(0, 143, 0, 22)
+
+button_15.Name = "button"
+button_15.Parent = btn_holder_15
+button_15.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_15.BorderSizePixel = 0
+button_15.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_15.Size = UDim2.new(0, 132, 0, 16)
+button_15.AutoButtonColor = false
+button_15.Font = Enum.Font.Gotham
+button_15.Text = "Infinite Yield"
+button_15.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_15.TextSize = 14.000
+button_15.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_26.Parent = btn_holder_15
+UIListLayout_26.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_26.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_26.VerticalAlignment = Enum.VerticalAlignment.Center
+
+btn_holder_16.Name = "btn_holder"
+btn_holder_16.Parent = section_holder_3
+btn_holder_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+btn_holder_16.BackgroundTransparency = 1.000
+btn_holder_16.Position = UDim2.new(-0.010714286, 0, 0, 0)
+btn_holder_16.Size = UDim2.new(0, 143, 0, 22)
+
+button_16.Name = "button"
+button_16.Parent = btn_holder_16
+button_16.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+button_16.BorderSizePixel = 0
+button_16.Position = UDim2.new(0.0384615399, 0, 0.204545453, 0)
+button_16.Size = UDim2.new(0, 132, 0, 16)
+button_16.AutoButtonColor = false
+button_16.Font = Enum.Font.Gotham
+button_16.Text = "CMD X"
+button_16.TextColor3 = Color3.fromRGB(200, 200, 200)
+button_16.TextSize = 14.000
+button_16.TextStrokeColor3 = Color3.fromRGB(200, 200, 200)
+
+UIListLayout_27.Parent = btn_holder_16
+UIListLayout_27.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_27.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_27.VerticalAlignment = Enum.VerticalAlignment.Center
+
+credit_frame.Name = "credit_frame"
+credit_frame.Parent = frameholder
+credit_frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credit_frame.BackgroundTransparency = 1.000
+credit_frame.Size = UDim2.new(0, 88, 0, 25)
+
+UIListLayout_28.Parent = credit_frame
+UIListLayout_28.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout_28.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout_28.VerticalAlignment = Enum.VerticalAlignment.Center
+
+credit_btn.Name = "credit_btn"
+credit_btn.Parent = credit_frame
+credit_btn.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+credit_btn.BorderSizePixel = 0
+credit_btn.Position = UDim2.new(0.0568181835, 0, 0.239999995, 0)
+credit_btn.Size = UDim2.new(0, 78, 0, 19)
+credit_btn.AutoButtonColor = false
+credit_btn.Font = Enum.Font.Gotham
+credit_btn.Text = "Credits"
+credit_btn.TextColor3 = Color3.fromRGB(220, 220, 220)
+credit_btn.TextSize = 14.000
+
+credit.Name = "credit"
+credit.Parent = credit_btn
+credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credit.BackgroundTransparency = 1.000
+credit.Position = UDim2.new(-4.52564144, 0, 1.31578946, 0)
+credit.Size = UDim2.new(0, 475, 0, 236)
+credit.Visible = false
+
+page_title_3.Name = "page_title"
+page_title_3.Parent = credit
+page_title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+page_title_3.BackgroundTransparency = 1.000
+page_title_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+page_title_3.Position = UDim2.new(0.416842103, 0, 0.0508474559, 0)
+page_title_3.Size = UDim2.new(0, 80, 0, 29)
+page_title_3.Font = Enum.Font.Gotham
+page_title_3.Text = "Credits"
+page_title_3.TextColor3 = Color3.fromRGB(230, 230, 230)
+page_title_3.TextSize = 25.000
+
+credits_box_2.Name = "credits_box"
+credits_box_2.Parent = credit
+credits_box_2.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+credits_box_2.BorderColor3 = Color3.fromRGB(75, 75, 75)
+credits_box_2.Position = UDim2.new(0.0315789469, 0, 0.228813559, 0)
+credits_box_2.Size = UDim2.new(0, 444, 0, 169)
+
+TextLabel_7.Parent = credits_box_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0112612601, 0, 0.0177514795, 0)
+TextLabel_7.Size = UDim2.new(0, 435, 0, 163)
+TextLabel_7.Font = Enum.Font.Gotham
+TextLabel_7.Text = "UI Design: loruph#4179"
+TextLabel_7.TextColor3 = Color3.fromRGB(210, 210, 210)
+TextLabel_7.TextSize = 17.000
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_7.TextYAlignment = Enum.TextYAlignment.Top
+
+destroy.Name = "destroy"
+destroy.Parent = topbar
+destroy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+destroy.BackgroundTransparency = 1.000
+destroy.Position = UDim2.new(0.941052616, 0, 0.159999996, 0)
+destroy.Size = UDim2.new(0, 21, 0, 16)
+destroy.Font = Enum.Font.GothamBlack
+destroy.Text = "╳"
+destroy.TextColor3 = Color3.fromRGB(230, 230, 230)
+destroy.TextSize = 20.000
+
+not_frame.Name = "not_frame"
+not_frame.Parent = destroy
+not_frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+not_frame.BackgroundTransparency = 0.350
+not_frame.BorderSizePixel = 0
+not_frame.ClipsDescendants = true
+not_frame.Position = UDim2.new(1.61904764, 0, -0.25, 0)
+not_frame.Size = UDim2.new(0, 0, 0, 25)
+
+TextLabel_8.Parent = not_frame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Size = UDim2.new(0, 119, 0, 25)
+TextLabel_8.Font = Enum.Font.Gotham
+TextLabel_8.Text = "usmxn:Destroy()"
+TextLabel_8.TextColor3 = Color3.fromRGB(220, 220, 220)
+TextLabel_8.TextSize = 14.000
+
+-- Scripts:
+
+local function VRLN_fake_script() -- home_btn.frame_script_3 
+	local script = Instance.new('Script', home_btn)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Click:Connect(function()
+		for i,v in pairs(script.Parent.Parent.Parent:GetChildren()) do
+			if v.Name == script.Parent.Parent.Name then
+				for i2,v2 in pairs(v:GetChildren()) do
+					if v2:IsA"TextButton" then
+						for i3,v3 in pairs(v2:GetChildren()) do
+							if v3:IsA"Frame" then
+								v3.Visible = true
+							end
+						end
+					end
+				end
+			end
+		end
+		for i4,v4 in pairs(script.Parent.Parent.Parent:GetChildren()) do
+			if v4.Name ~= script.Parent.Parent.Name then
+				for i5,v5 in pairs(v4:GetChildren()) do
+					if v5:IsA"TextButton" then
+						for i6,v6 in pairs(v5:GetChildren()) do
+							if v6:IsA"Frame" then
+								v6.Visible = false
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(VRLN_fake_script)()
+local function SHEIKX_fake_script() -- TextLabel.Script 
+	local script = Instance.new('Script', TextLabel)
+
+	script.Parent.Text = "Welcome to Usmxn's hub, this is a hub made by loruph#4179, all scripts in this hub are completely free, all credits of the scripts go to their original owners."
+end
+coroutine.wrap(SHEIKX_fake_script)()
+local function WZQM_fake_script() -- button.Script 
+	local script = Instance.new('Script', button)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(WZQM_fake_script)()
+local function MOSS_fake_script() -- button.Script 
+	local script = Instance.new('Script', button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+	end)
+end
+coroutine.wrap(MOSS_fake_script)()
+local function QIJURC_fake_script() -- button_2.Script 
+	local script = Instance.new('Script', button_2)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(QIJURC_fake_script)()
+local function ZINGZG_fake_script() -- button_2.hover 
+	local script = Instance.new('Script', button_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.title.Text = "M4osAvylUb4cfgdsSVOy"
+		wait(10)
+		script.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.Parent.title.Text = "Usmxn's Hub"
+	end)
+end
+coroutine.wrap(ZINGZG_fake_script)()
+local function JQSLQ_fake_script() -- button_3.hover 
+	local script = Instance.new('Script', button_3)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(JQSLQ_fake_script)()
+local function TQTOSGE_fake_script() -- button_3.Script 
+	local script = Instance.new('Script', button_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Prison%20Life"))()
+	end)
+end
+coroutine.wrap(TQTOSGE_fake_script)()
+local function GNXTG_fake_script() -- button_4.Script 
+	local script = Instance.new('Script', button_4)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(GNXTG_fake_script)()
+local function HVLICF_fake_script() -- button_4.hover 
+	local script = Instance.new('Script', button_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+	end)
+end
+coroutine.wrap(HVLICF_fake_script)()
+local function DGYGADD_fake_script() -- button_5.Script 
+	local script = Instance.new('Script', button_5)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(DGYGADD_fake_script)()
+local function GTBE_fake_script() -- button_5.hover 
+	local script = Instance.new('Script', button_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine"))()
+	end)
+end
+coroutine.wrap(GTBE_fake_script)()
+local function JZZBAPK_fake_script() -- button_6.hover 
+	local script = Instance.new('Script', button_6)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(JZZBAPK_fake_script)()
+local function ORPDX_fake_script() -- button_6.Script 
+	local script = Instance.new('Script', button_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Sjorbiia/X-Scripts/master/PrisonXV3.5%20-%20Experimental.lua'),true))()
+	end)
+end
+coroutine.wrap(ORPDX_fake_script)()
+local function CZXOG_fake_script() -- button_7.Script 
+	local script = Instance.new('Script', button_7)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(CZXOG_fake_script)()
+local function OMKVCRV_fake_script() -- button_7.hover 
+	local script = Instance.new('Script', button_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/6CGJDgRg'),true))()
+	end)
+end
+coroutine.wrap(OMKVCRV_fake_script)()
+local function WROZZPQ_fake_script() -- button_8.hover 
+	local script = Instance.new('Script', button_8)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(WROZZPQ_fake_script)()
+local function VFBR_fake_script() -- button_8.Script 
+	local script = Instance.new('Script', button_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/RPwyPvEi"))()
+	end)
+end
+coroutine.wrap(VFBR_fake_script)()
+local function OUECIS_fake_script() -- button_9.hover 
+	local script = Instance.new('Script', button_9)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(OUECIS_fake_script)()
+local function KVQQHGB_fake_script() -- button_9.Script 
+	local script = Instance.new('Script', button_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/4B4fktPS", true))()
+	end)
+end
+coroutine.wrap(KVQQHGB_fake_script)()
+local function WIBC_fake_script() -- button_10.hover 
+	local script = Instance.new('Script', button_10)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(WIBC_fake_script)()
+local function NYWVJEW_fake_script() -- button_10.Script 
+	local script = Instance.new('Script', button_10)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+	end)
+end
+coroutine.wrap(NYWVJEW_fake_script)()
+local function POSO_fake_script() -- button_11.hover 
+	local script = Instance.new('Script', button_11)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(POSO_fake_script)()
+local function BKBHJPY_fake_script() -- button_11.Script 
+	local script = Instance.new('Script', button_11)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		function sandbox(var,func)
+			local env = getfenv(func)
+			local newenv = setmetatable({},{
+				__index = function(self,k)
+					if k=="script" then
+						return var
+					else
+						return env[k]
+					end
+				end,
+			})
+			setfenv(func,newenv)
+			return func
+		end
+		cors = {}
+		mas = Instance.new("Model",game:GetService("Lighting"))
+		ScreenGui0 = Instance.new("ScreenGui")
+		Frame1 = Instance.new("Frame")
+		Frame2 = Instance.new("Frame")
+		TextBox3 = Instance.new("TextBox")
+		TextLabel4 = Instance.new("TextLabel")
+		Frame5 = Instance.new("Frame")
+		TextLabel6 = Instance.new("TextLabel")
+		TextLabel7 = Instance.new("TextLabel")
+		TextBox8 = Instance.new("TextBox")
+		TextLabel9 = Instance.new("TextLabel")
+		TextBox10 = Instance.new("TextBox")
+		TextButton11 = Instance.new("TextButton")
+		LocalScript12 = Instance.new("LocalScript")
+		LocalScript13 = Instance.new("LocalScript")
+		ScreenGui0.Parent = mas
+		ScreenGui0.ResetOnSpawn = false
+		Frame1.Parent = ScreenGui0
+		Frame1.Position = UDim2.new(0.096632503, 0, 0.648711979, 0)
+		Frame1.Size = UDim2.new(0, 438, 0, 179)
+		Frame1.BackgroundColor = BrickColor.new("Really black")
+		Frame1.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+		Frame1.BorderSizePixel = 0
+		Frame2.Name = "pt1"
+		Frame2.Parent = Frame1
+		Frame2.Position = UDim2.new(0, 0, 0.114857376, 0)
+		Frame2.Size = UDim2.new(0, 438, 0, 9)
+		Frame2.BackgroundColor = BrickColor.new("Dark blue")
+		Frame2.BackgroundColor3 = Color3.new(0, 0.215686, 0.65098)
+		Frame2.BorderSizePixel = 0
+		TextBox3.Parent = Frame2
+		TextBox3.Position = UDim2.new(0.098173514, 0, 1.66666675, 0)
+		TextBox3.Size = UDim2.new(0, 224, 0, 28)
+		TextBox3.BackgroundColor = BrickColor.new("Black metallic")
+		TextBox3.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+		TextBox3.BorderSizePixel = 0
+		TextBox3.Font = Enum.Font.SourceSans
+		TextBox3.FontSize = Enum.FontSize.Size24
+		TextBox3.Text = ""
+		TextBox3.TextColor = BrickColor.new("Institutional white")
+		TextBox3.TextColor3 = Color3.new(1, 1, 1)
+		TextBox3.TextSize = 23
+		TextBox3.TextXAlignment = Enum.TextXAlignment.Left
+		TextBox3.TextYAlignment = Enum.TextYAlignment.Top
+		TextBox3.ClearTextOnFocus = false
+		TextLabel4.Parent = Frame1
+		TextLabel4.Size = UDim2.new(0, 121, 0, 21)
+		TextLabel4.BackgroundColor = BrickColor.new("Institutional white")
+		TextLabel4.BackgroundColor3 = Color3.new(1, 1, 1)
+		TextLabel4.BackgroundTransparency = 1
+		TextLabel4.BorderSizePixel = 0
+		TextLabel4.Font = Enum.Font.SourceSans
+		TextLabel4.FontSize = Enum.FontSize.Size14
+		TextLabel4.Text = "FE Chat Hax"
+		TextLabel4.TextColor = BrickColor.new("Institutional white")
+		TextLabel4.TextColor3 = Color3.new(1, 1, 1)
+		TextLabel4.TextScaled = true
+		TextLabel4.TextSize = 14
+		TextLabel4.TextWrap = true
+		TextLabel4.TextWrapped = true
+		Frame5.Name = "pt2"
+		Frame5.Parent = Frame1
+		Frame5.Position = UDim2.new(0, 0, 0.401840836, 0)
+		Frame5.Size = UDim2.new(0, 438, 0, 9)
+		Frame5.BackgroundColor = BrickColor.new("Dark blue")
+		Frame5.BackgroundColor3 = Color3.new(0, 0.215686, 0.65098)
+		Frame5.BorderSizePixel = 0
+		TextLabel6.Parent = Frame5
+		TextLabel6.Position = UDim2.new(0, 0, -4, 0)
+		TextLabel6.Size = UDim2.new(0, 49, 0, 20)
+		TextLabel6.BackgroundColor = BrickColor.new("Institutional white")
+		TextLabel6.BackgroundColor3 = Color3.new(1, 1, 1)
+		TextLabel6.BackgroundTransparency = 1
+		TextLabel6.Font = Enum.Font.SourceSans
+		TextLabel6.FontSize = Enum.FontSize.Size14
+		TextLabel6.Text = "You:"
+		TextLabel6.TextColor = BrickColor.new("Institutional white")
+		TextLabel6.TextColor3 = Color3.new(1, 1, 1)
+		TextLabel6.TextScaled = true
+		TextLabel6.TextSize = 14
+		TextLabel6.TextWrap = true
+		TextLabel6.TextWrapped = true
+		TextLabel7.Parent = Frame5
+		TextLabel7.Position = UDim2.new(0, 0, 6.77777767, 0)
+		TextLabel7.Size = UDim2.new(0, 76, 0, 33)
+		TextLabel7.BackgroundColor = BrickColor.new("Institutional white")
+		TextLabel7.BackgroundColor3 = Color3.new(1, 1, 1)
+		TextLabel7.BackgroundTransparency = 1
+		TextLabel7.Font = Enum.Font.SourceSans
+		TextLabel7.FontSize = Enum.FontSize.Size14
+		TextLabel7.Text = "ChatHaxx:"
+		TextLabel7.TextColor = BrickColor.new("Institutional white")
+		TextLabel7.TextColor3 = Color3.new(1, 1, 1)
+		TextLabel7.TextScaled = true
+		TextLabel7.TextSize = 14
+		TextLabel7.TextWrap = true
+		TextLabel7.TextWrapped = true
+		TextBox8.Name = "Usernamee"
+		TextBox8.Parent = Frame5
+		TextBox8.Position = UDim2.new(0.194063917, 0, 3.66666651, 0)
+		TextBox8.Size = UDim2.new(0, 224, 0, 28)
+		TextBox8.BackgroundColor = BrickColor.new("Black metallic")
+		TextBox8.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+		TextBox8.BorderSizePixel = 0
+		TextBox8.Font = Enum.Font.SourceSans
+		TextBox8.FontSize = Enum.FontSize.Size24
+		TextBox8.Text = ""
+		TextBox8.TextColor = BrickColor.new("Institutional white")
+		TextBox8.TextColor3 = Color3.new(1, 1, 1)
+		TextBox8.TextSize = 23
+		TextBox8.TextXAlignment = Enum.TextXAlignment.Left
+		TextBox8.TextYAlignment = Enum.TextYAlignment.Top
+		TextBox8.ClearTextOnFocus = false
+		TextLabel9.Parent = Frame5
+		TextLabel9.Position = UDim2.new(0, 0, 3.11111116, 0)
+		TextLabel9.Size = UDim2.new(0, 76, 0, 33)
+		TextLabel9.BackgroundColor = BrickColor.new("Institutional white")
+		TextLabel9.BackgroundColor3 = Color3.new(1, 1, 1)
+		TextLabel9.BackgroundTransparency = 1
+		TextLabel9.Font = Enum.Font.SourceSans
+		TextLabel9.FontSize = Enum.FontSize.Size14
+		TextLabel9.Text = "Username:"
+		TextLabel9.TextColor = BrickColor.new("Institutional white")
+		TextLabel9.TextColor3 = Color3.new(1, 1, 1)
+		TextLabel9.TextScaled = true
+		TextLabel9.TextSize = 14
+		TextLabel9.TextWrap = true
+		TextLabel9.TextWrapped = true
+		TextBox10.Name = "Chathaxxx"
+		TextBox10.Parent = Frame5
+		TextBox10.Position = UDim2.new(0.194063917, 0, 7.33333302, 0)
+		TextBox10.Size = UDim2.new(0, 224, 0, 28)
+		TextBox10.BackgroundColor = BrickColor.new("Black metallic")
+		TextBox10.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+		TextBox10.BorderSizePixel = 0
+		TextBox10.Font = Enum.Font.SourceSans
+		TextBox10.FontSize = Enum.FontSize.Size24
+		TextBox10.Text = ""
+		TextBox10.TextColor = BrickColor.new("Institutional white")
+		TextBox10.TextColor3 = Color3.new(1, 1, 1)
+		TextBox10.TextSize = 23
+		TextBox10.TextXAlignment = Enum.TextXAlignment.Left
+		TextBox10.TextYAlignment = Enum.TextYAlignment.Top
+		TextBox10.ClearTextOnFocus = false
+		TextButton11.Name = "Send"
+		TextButton11.Parent = Frame5
+		TextButton11.Position = UDim2.new(0.746575356, 0, 5.11111116, 0)
+		TextButton11.Size = UDim2.new(0, 82, 0, 40)
+		TextButton11.BackgroundColor = BrickColor.new("Black metallic")
+		TextButton11.BackgroundColor3 = Color3.new(0.121569, 0.121569, 0.121569)
+		TextButton11.BorderSizePixel = 0
+		TextButton11.Font = Enum.Font.Oswald
+		TextButton11.FontSize = Enum.FontSize.Size14
+		TextButton11.Text = "Send"
+		TextButton11.TextColor = BrickColor.new("Really black")
+		TextButton11.TextColor3 = Color3.new(0, 0, 0)
+		TextButton11.TextScaled = true
+		TextButton11.TextSize = 14
+		TextButton11.TextWrap = true
+		TextButton11.TextWrapped = true
+		LocalScript12.Parent = TextButton11
+		table.insert(cors,sandbox(LocalScript12,function()
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(""..script.Parent.Parent.Parent.pt1.TextBox.Text.." \224\185\142\204\183\224\185\142\204\182\224\185\142\204\184\224\185\142\204\182\224\185\142\204\180\224\185\142\204\184\224\185\142\204\181\224\185\142\204\180\224\185\142\204\182\224\185\142\204\181\224\185\142\204\183\224\185\142\204\181\224\185\142\204\181\224\185\142\204\183\224\185\142\204\184\224\185\142\204\182\224\185\142\204\182\224\185\142\204\184\224\185\142\204\182\224\185\142\204\184\224\185\142\204\184\224\185\142\204\180\224\185\142\204\180\224\185\142\204\182\224\185\142\204\182\224\185\142\204\182\224\185\142\204\182\224\185\142\204\182\224\185\142\204\182\224\185\142\224\185\142\204\183\224\185\142\204\182\224\185\142\204\184\224\185\142\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\184\224\185\142\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\184\224\185\142\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180\204\182\224\185\142\204\180["..script.Parent.Parent.Usernamee.Text.."]: "..script.Parent.Parent.Chathaxxx.Text.."","All")
+			end)
+	
+		end))
+		LocalScript13.Name = "Dragify"
+		LocalScript13.Parent = Frame1
+		table.insert(cors,sandbox(LocalScript13,function()
+			local UIS = game:GetService("UserInputService")
+			function dragify(Frame)
+				dragToggle = nil
+				local dragSpeed = 0.50
+				dragInput = nil
+				dragStart = nil
+				local dragPos = nil
+				function updateInput(input)
+					local Delta = input.Position - dragStart
+					local Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+					game:GetService("TweenService"):Create(Frame, TweenInfo.new(0.30), {Position = Position}):Play()
+				end
+				Frame.InputBegan:Connect(function(input)
+					if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) and UIS:GetFocusedTextBox() == nil then
+						dragToggle = true
+						dragStart = input.Position
+						startPos = Frame.Position
+						input.Changed:Connect(function()
+							if input.UserInputState == Enum.UserInputState.End then
+								dragToggle = false
+							end
+						end)
+					end
+				end)
+				Frame.InputChanged:Connect(function(input)
+					if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+						dragInput = input
+					end
+				end)
+				game:GetService("UserInputService").InputChanged:Connect(function(input)
+					if input == dragInput and dragToggle then
+						updateInput(input)
+					end
+				end)
+			end
+	
+			dragify(script.Parent)
+		end))
+		for i,v in pairs(mas:GetChildren()) do
+			v.Parent = game.CoreGui
+			pcall(function() v:MakeJoints() end)
+		end
+		mas:Destroy()
+		for i,v in pairs(cors) do
+			spawn(function()
+				pcall(v)
+			end)
+		end
+	end)
+end
+coroutine.wrap(BKBHJPY_fake_script)()
+local function OVVLV_fake_script() -- button_12.hover 
+	local script = Instance.new('Script', button_12)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(OVVLV_fake_script)()
+local function KOXL_fake_script() -- button_12.Script 
+	local script = Instance.new('Script', button_12)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		_G.CheckCustomBuilds = true
+		_G.DefaulBuilds = true
+		_G.Barrier = true
+		_G.bridge2 = true
+		_G.bridge4 = true
+		_G.ladder = true
+		_G.Nazi = true
+		_G.penis = true
+		_G.platform = true
+		_G.stairs = true
+		_G.BigPP = true
+	
+		_G.RGB = false
+		_G.RGBswitchDelay = .4
+	
+		_G.RejoinWaitDelayForReExecute = 5  
+	
+		loadstring(game:HttpGet("https://ssbtools.netlify.app/assets/storage/LOADSTRING_SCRIPT2.txt"))()
+	end)
+end
+coroutine.wrap(KOXL_fake_script)()
+local function SWMJHTY_fake_script() -- button_13.hover 
+	local script = Instance.new('Script', button_13)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(SWMJHTY_fake_script)()
+local function OAIRYM_fake_script() -- button_13.Script 
+	local script = Instance.new('Script', button_13)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		xpcall(loadstring("\27\83\88\76\16\0\1\4\4\4\8\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2\15\31\0\0\0\42\0\0\0\106\64\0\0\92\128\128\0\133\128\0\0\134\192\64\1\193\0\1\0\1\65\1\0\65\129\1\0\129\193\1\0\193\1\2\0\1\194\1\0\65\66\2\0\129\130\2\0\193\194\2\0\1\3\3\0\65\67\3\0\129\131\3\0\156\128\128\6\194\0\128\0\28\64\0\2\42\192\3\0\69\0\4\0\70\64\196\0\138\64\0\0\137\192\68\137\92\128\0\1\70\0\197\0\28\128\0\1\65\64\5\0\28\64\0\1\30\0\128\0\22\0\0\0\4\7\0\0\0\114\97\119\115\101\116\0\4\8\0\0\0\103\101\116\103\101\110\118\0\4\7\0\0\0\115\116\114\105\110\103\0\4\5\0\0\0\99\104\97\114\0\3\0\0\0\0\0\0\85\64\3\0\0\0\0\0\0\90\64\3\0\0\0\0\0\64\90\64\3\0\0\0\0\0\192\92\64\3\0\0\0\0\0\64\82\64\3\0\0\0\0\0\0\82\64\3\0\0\0\0\0\64\93\64\3\0\0\0\0\0\128\91\64\3\0\0\0\0\0\0\93\64\3\0\0\0\0\0\64\89\64\3\0\0\0\0\0\128\92\64\4\11\0\0\0\108\111\97\100\115\116\114\105\110\103\0\4\4\0\0\0\115\121\110\0\4\8\0\0\0\114\101\113\117\101\115\116\0\4\4\0\0\0\85\114\108\0\4\34\0\0\0\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\78\106\68\86\75\103\117\55\0\4\5\0\0\0\66\111\100\121\0\4\12\0\0\0\72\117\110\116\101\114\82\101\118\105\122\0\0\0\0\0\31\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\1\0\0\0\0\0\0\0\0\0\0\0"), warn)
+	end)
+end
+coroutine.wrap(OAIRYM_fake_script)()
+local function BTYH_fake_script() -- TextBox.Script 
+	local script = Instance.new('Script', TextBox)
+
+	local NE = game.Players.LocalPlayer.Name
+	script.Parent.FocusLost:Connect(function()
+		game.Workspace[NE].Humanoid.WalkSpeed = script.Parent.Text
+	end)
+end
+coroutine.wrap(BTYH_fake_script)()
+local function PIJQ_fake_script() -- TextBox_2.Script 
+	local script = Instance.new('Script', TextBox_2)
+
+	local NE = game.Players.LocalPlayer.Name
+	script.Parent.FocusLost:Connect(function()
+		game.Workspace[NE].Humanoid.JumpPower = script.Parent.Text
+	end)
+end
+coroutine.wrap(PIJQ_fake_script)()
+local function EQZP_fake_script() -- button_14.hover 
+	local script = Instance.new('Script', button_14)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(EQZP_fake_script)()
+local function ZWKTB_fake_script() -- button_14.Script 
+	local script = Instance.new('Script', button_14)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass'))()
+	end)
+end
+coroutine.wrap(ZWKTB_fake_script)()
+local function KVRKIXB_fake_script() -- button_15.hover 
+	local script = Instance.new('Script', button_15)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(KVRKIXB_fake_script)()
+local function YMJZ_fake_script() -- button_15.Script 
+	local script = Instance.new('Script', button_15)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(YMJZ_fake_script)()
+local function JUCJ_fake_script() -- button_16.hover 
+	local script = Instance.new('Script', button_16)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local btn = script.Parent
+	
+	btn.MouseEnter:Connect(function()
+		local FirstColour = Color3.fromRGB(255, 255, 127)
+		TS:Create(btn,TI,{TextColor3 = FirstColour}):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		local SecondColour = Color3.fromRGB(200,200,200)
+		TS:Create(btn,TI,{TextColor3 = SecondColour}):Play()
+	end)
+end
+coroutine.wrap(JUCJ_fake_script)()
+local function VOKVXNU_fake_script() -- button_16.Script 
+	local script = Instance.new('Script', button_16)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+end
+coroutine.wrap(VOKVXNU_fake_script)()
+local function NUXBBV_fake_script() -- script_btn.frame_script_2 
+	local script = Instance.new('Script', script_btn)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Click:Connect(function()
+		for i,v in pairs(script.Parent.Parent.Parent:GetChildren()) do
+			if v.Name == script.Parent.Parent.Name then
+				for i2,v2 in pairs(v:GetChildren()) do
+					if v2:IsA"TextButton" then
+						for i3,v3 in pairs(v2:GetChildren()) do
+							if v3:IsA"Frame" then
+								v3.Visible = true
+							end
+						end
+					end
+				end
+			end
+		end
+		for i4,v4 in pairs(script.Parent.Parent.Parent:GetChildren()) do
+			if v4.Name ~= script.Parent.Parent.Name then
+				for i5,v5 in pairs(v4:GetChildren()) do
+					if v5:IsA"TextButton" then
+						for i6,v6 in pairs(v5:GetChildren()) do
+							if v6:IsA"Frame" then
+								v6.Visible = false
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(NUXBBV_fake_script)()
+local function ODKK_fake_script() -- TextLabel_7.Script 
+	local script = Instance.new('Script', TextLabel_7)
+
+	script.Parent.Text = "UI Design: loruph#4179\nUI Scripting: loruph#4179\nHub: loruph#4179\n\nScripts: Original Creators\n\nHub Request: Usmxn#1111"
+end
+coroutine.wrap(ODKK_fake_script)()
+local function MEIKPDX_fake_script() -- credit_btn.frame_script_1 
+	local script = Instance.new('Script', credit_btn)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Click:Connect(function()
+		for i,v in pairs(script.Parent.Parent.Parent:GetChildren()) do
+			if v.Name == script.Parent.Parent.Name then
+				for i2,v2 in pairs(v:GetChildren()) do
+					if v2:IsA"TextButton" then
+						for i3,v3 in pairs(v2:GetChildren()) do
+							if v3:IsA"Frame" then
+								v3.Visible = true
+							end
+						end
+					end
+				end
+			end
+		end
+		for i4,v4 in pairs(script.Parent.Parent.Parent:GetChildren()) do
+			if v4.Name ~= script.Parent.Parent.Name then
+				for i5,v5 in pairs(v4:GetChildren()) do
+					if v5:IsA"TextButton" then
+						for i6,v6 in pairs(v5:GetChildren()) do
+							if v6:IsA"Frame" then
+								v6.Visible = false
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(MEIKPDX_fake_script)()
+local function XJVW_fake_script() -- destroy.hover_script 
+	local script = Instance.new('Script', destroy)
+
+	local TS = game:GetService("TweenService")
+	local TI = TweenInfo.new(.2,Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,false,0)
+	local close = script.Parent
+	local frame = script.Parent.not_frame
+	
+	close.MouseEnter:Connect(function()
+		local FirstSize = UDim2.new(0, 119,0, 25)
+		TS:Create(frame,TI,{Size = FirstSize}):Play()
+	end)
+	
+	close.MouseLeave:Connect(function()
+		local SecondSize = UDim2.new(0,0,0,25)
+		TS:Create(frame,TI,{Size = SecondSize}):Play()
+	end)
+end
+coroutine.wrap(XJVW_fake_script)()
+local function PWIURMB_fake_script() -- destroy.destroy_script 
+	local script = Instance.new('Script', destroy)
+
+	local usmxn = script.Parent.Parent.Parent.Parent
+	script.Parent.MouseButton1Click:Connect(function()
+		usmxn:Destroy()
+	end)
+end
+coroutine.wrap(PWIURMB_fake_script)()
+local function SEKOM_fake_script() -- background.Script 
+	local script = Instance.new('Script', background)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(SEKOM_fake_script)()
